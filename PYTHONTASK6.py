@@ -1,6 +1,7 @@
 """
 Author:Davis Christy Robert
-Date:19-10-
+Date:19-10-2024
+description:Simple desktop calculator using Python. Only the five basic arithmetic operators.
 """
 num1=int(input("enter the number"))
 num2=int(input("enter the number"))
