@@ -5,31 +5,32 @@ DESCRIPTION:AIM: Input two lists from the user. Merge these lists into a third l
 all even numbers occur first followed by odd numbers.
  Both the even numbers and odd numbers should be in sorted order.
 """
-print("INCREASING TRIANGLE")
 n=int(input("enter the value of n:"))
+print("INCREASING TRIANGLE")
 for i in range(n):
     for j in range(i,i+1):
-        print("*\t"*j)
+        print("*"*j)
 
-print("DECREASING TRIANGLE")
 n=int(input("enter the value of n:"))
+print("DECREASING TRIANGLE")
 for i in range(n,0,-1):
     for j in range(i,i+1):
-        print("*\t"*j)
+        print("*"*j)
 
-print("HILL PATTERN")
 num=int(input("enter the value of n:"))
+print("HILL PATTERN")
 for i in range(1,num+1):
     for j in range(num-i):
         print(" ",end=" ")
     for j in range(i*2-1):
         print("*",end=" ")
     print()
-#reverse hill pattern
 num=int(input("enter the value of n:"))
+print("REVERSE HILL PATTERN")
 for i in range(num,0,-1):
     for j in range(num-i):
         print(" ",end=" ")
     for j in range(i*2-1):
         print("*",end=" ")
     print()
+  
