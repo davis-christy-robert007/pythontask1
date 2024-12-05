@@ -1,6 +1,6 @@
 """
 Author:Davis Christy Robert
-Recursive function to multiply two positive numbers
+Description: Recursive function to multiply two positive numbers
 date:29-11-2024
 """
 def multiply(n1,n2):
