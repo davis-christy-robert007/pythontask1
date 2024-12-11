@@ -3,7 +3,7 @@ car; behind the others, goats. You pick a door, say No. 1, and the host, who kno
 doors, opens another door, say No. 3, which has a goat. He then asks, "Do you want to pick door No.
 2?" Is it to your advantage to switch your choice?
 Author: davis christy robert
-Date: November  13  2024
+Date: 12-12-2024
 """
 import random
 
